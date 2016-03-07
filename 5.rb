@@ -1,10 +1,7 @@
 uno = [1,2,3,0,1,2,2,1,2,1,2,0,3]
-# ==> [1, 2, 3, 0, 1, 2, 2, 1, 2, 1, 2, 0, 3]
 dos = [:azul, :verde, :amarillo]
-# ==> [:azul, :verde, :amarillo]
 
 nuevo_arreglo = []
-# ==> []
 
 uno.each do |elem|
 	if(elem === 0)
@@ -30,23 +27,7 @@ uno.each do |elem|
 	end
 
 end
-# =verde
-# =amarillo
-# =nil
-# =azul
-# =verde
-# =amarillo
-# =amarillo
-# =verde
-# =amarillo
-# =verde
-# =amarillo
-# =azul
-# =nil
-# ==> [1, 2, 3, 0, 1, 2, 2, 1, 2, 1, 2, 0, 3]
 
 p nuevo_arreglo
-# =[:verde, :amarillo, nil, :azul, :verde, :amarillo, :amarillo, :verde, :amarillo, :verde, :amarillo, :azul, nil]
-# ==> [:verde, :amarillo, nil, :azul, :verde, :amarillo, :amarillo, :verde, :amarillo, :verde, :amarillo, :azul, nil]
 
 
