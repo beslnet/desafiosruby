@@ -16,6 +16,7 @@ alumnos = [
 			{name: "Diego Guajardo", edad:32}, 
 
 
+# 1) Calcular la edad promedio del curso
 		  ]
 suma_edades = 0
 cantidad_alumnos = alumnos.length
@@ -26,6 +27,8 @@ end
 
 promedio_edad = suma_edades / cantidad_alumnos.to_f
 
+
+# 2) Encontrar al alumnos más joven del curso
 
 edades = Hash.new
 alumnos.each do |x|
