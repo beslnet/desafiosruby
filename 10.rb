@@ -12,5 +12,5 @@ arreglo.each do |x|
 	end
 end
 
-nuevo_arreglo
+p nuevo_arreglo
 

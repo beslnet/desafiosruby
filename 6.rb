@@ -11,6 +11,3 @@ pp azar
 
 pp mayores
 
-
-#hash.select {|k, v| v == "benja"}
-#hash.find {|k, v| v == "benja"}

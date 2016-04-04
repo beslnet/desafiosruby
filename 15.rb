@@ -27,6 +27,7 @@ end
 
 promedio_edad = suma_edades / cantidad_alumnos.to_f
 
+puts "Edad Promedio: #{promedio_edad}"
 
 # 2) Encontrar al alumnos más joven del curso
 
@@ -40,3 +41,4 @@ end
 
 edad_menor = edades.group_by(&:last).min_by(&:first).last.to_h
 
+puts "la edad del alumno más joven del curso es: #{edad_menor}"

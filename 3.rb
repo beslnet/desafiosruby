@@ -7,5 +7,3 @@ abc = [a, b, c]
 nuevo_arreglo = abc.flatten
 
 p nuevo_arreglo
-
-# investigar flatten

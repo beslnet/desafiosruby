@@ -8,6 +8,6 @@ nuevo_arreglo = []
 	end	
 
 
-arreglo
-nuevo_arreglo
+p arreglo
+p nuevo_arreglo
 
